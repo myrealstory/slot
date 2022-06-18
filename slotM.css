@@ -1,0 +1,83 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif,Arial, Helvetica, sans-serif;
+}
+.bd{
+    text-align: center;
+}
+.container{
+    background-image: url(./images/gameBG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.slotBG{
+    background-image: url(./images/SlotBG.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 19%;
+    margin-top: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid rgb(42, 0, 109); */
+    overflow: hidden;
+}
+
+.slot-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slot {
+    background-image: url(./images/MYREEL_N.png);
+    background-repeat: repeat-y;
+    width: 10rem;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.motion {
+    background: url(./images/MYREEL_B.png) repeat-y center center cover;
+    width: 10rem;
+    height: 100%;    
+}
+
+#control {
+
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 20px 60px;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: indianred;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 46.5%;
+    transform: translateX(-50%);
+    margin-bottom: 5rem;
+}
+
+.btn {
+    position: relative;
+}
+
+#result {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 22px;
+}
+.clear {
+    clear: both;
+}
